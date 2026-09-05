@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bili_pink">#FFFB7299</color>
+    <color name="bili_pink_dark">#FFE85D8A</color>
+    <color name="bili_pink_15">#26FB7299</color>
+    <color name="bili_blue">#FF00A1D6</color>
+    <color name="bili_blue_dark">#FF0090C0</color>
+    <color name="bili_blue_15">#2600A1D6</color>
+    <color name="dark_bg">#FF0F1220</color>
+    <color name="dark_bg_top">#FF1A1E32</color>
+    <color name="dark_surface">#FF1C2340</color>
+    <color name="dark_surface2">#FF242E54</color>
+    <color name="dark_card">#FF1E2648</color>
+    <color name="dark_card_stroke">#14FFFFFF</color>
+    <color name="green">#FF2ECC71</color>
+    <color name="green_bg">#1A2ECC71</color>
+    <color name="red">#FFFF4D6D</color>
+    <color name="red_bg">#1AFF4D6D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_6">#0FFFFFFF</color>
+    <color name="text_secondary">#FF9AA1C0</color>
+</resources>

@@ -1,0 +1,4 @@
+-keepattributes *Annotation*
+-keep class com.bili.biliplus.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**

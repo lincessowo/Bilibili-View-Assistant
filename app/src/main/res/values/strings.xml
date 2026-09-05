@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bili++</string>
+    <string name="hint_url">输入视频链接 (BV/AV/b23.tv)</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="views_default">播放量: --</string>
+    <string name="delta_default">Δ 0</string>
+    <string name="status_idle">状态: 空闲</string>
+    <string name="status_running">状态: 运行中</string>
+    <string name="status_fetching">状态: 获取播放量…</string>
+    <string name="menu_battery">关闭电池优化</string>
+    <string name="menu_about">关于</string>
+    <string name="about_title">关于 Bili++</string>
+    <string name="about_message">Bili++ 视频播放量辅助工具\n基于 WebView 模拟浏览\n\n支持格式:\n• BV号 (BV1xx...)\n• AV号 (av123456)\n• b23.tv 短链接</string>
+    <string name="ok">确定</string>
+    <string name="notification_channel_name">Bili++ 服务</string>
+    <string name="notification_title">Bili++ 运行中</string>
+    <string name="notification_text" formatted="false">播放量: %,d (Δ %,d)</string>
+    <string name="invalid_url">无效的视频链接</string>
+    <string name="error_resolve">解析短链接失败</string>
+</resources>

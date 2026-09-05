@@ -1,0 +1,32 @@
+const TABLE = "FcwAPNKTMug3GV5Lj7EJnHpWsx4tb8haYeviqBz6rkCy12mUSDQX9RdoZf";
+const TR: Record<string, bigint> = {};
+for (let i = 0; i < TABLE.length; i++) TR[TABLE[i]] = BigInt(i);
+
+const S = [0, 1, 2, 9, 7, 5, 6, 4, 8, 3, 10, 11];
+const BASE = 58n,
+  BV_LEN = 12;
+const MAX = 1n << 51n;
+const XOR = 23442827791579n;
+const MASK = (1n << 51n) - 1n;
+
+// BV → AV
+function bv2av(bv: string): number {
+  let r = 0n;
+  for (let i = 3; i < BV_LEN; i++) {
+    r = r * BASE + TR[bv[S[i]]];
+  }
+  return Number((r & MASK) ^ XOR);
+}
+
+// AV → BV
+function av2bv(av: number): string {
+  const r = Array.from("BV1         ");
+  let it = BV_LEN - 1;
+  let tmp = (BigInt(av) | MAX) ^ XOR;
+  while (tmp !== 0n) {
+    r[S[it]] = TABLE[Number(tmp % BASE)];
+    tmp /= BASE;
+    it--;
+  }
+  return r.join("");
+}
