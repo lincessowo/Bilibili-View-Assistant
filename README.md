@@ -1,3 +1,8 @@
+<!--
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+-->
 # Bili++ - 哔哩哔哩播放量辅助工具
 
 基于 Android WebView 的哔哩哔哩视频播放量辅助工具。通过模拟独立浏览器访问，在本地循环刷新视频页面并自动检测播放量变化。
